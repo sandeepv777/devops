@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo"n"
+echo"enter any number"
 read n
 if [ $n -lt 10 ];
 then
