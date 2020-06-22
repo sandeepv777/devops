@@ -3,9 +3,9 @@
 a=10
 b=20
 
-c=$(a)
+c=${a}
 
-echo $(c)
+echo ${c}
 
 
 #this is a new line
