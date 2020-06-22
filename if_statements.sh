@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo"enter any number"
+echo "enter any number"
 read n
-if [ $n -lt 10 ];
+if [ ( $n -lt 10 ) ];
 then
 echo " it is a double digit number"
 else
