@@ -7,7 +7,8 @@ read x
 echo "entervalue2"
 read y
 
-z = $(($x + $y))
+z=$(($x + $y))
 
 echo $z
 }
+
