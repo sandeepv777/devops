@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-var1=10
-var2=20
+a=10
+b=20
 
-sum=$(($var1 + $var2))
+sum=$(($a + $b))
 
 echo $sum
 
