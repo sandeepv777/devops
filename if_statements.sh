@@ -2,7 +2,7 @@
 
 echo"n"
 read n
-if [ $n -gt 10 ];
+if [ $n -lt 10 ];
 then
 echo " it is a double digit number"
 else
