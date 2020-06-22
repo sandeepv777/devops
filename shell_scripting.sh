@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
-a=10
-b=20
+var1=10
+var2=20
 
-c_=$(($a+$b))
+sum=$(($var1 + $var2))
 
-echo $c
-
+echo $sum
 
 #this is a new line
