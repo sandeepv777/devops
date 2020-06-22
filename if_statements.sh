@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo"enter n"
+echo"n"
 read n
 if [ $n == -lt 10 ];
 then
