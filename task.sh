@@ -8,4 +8,7 @@ sum=$(( $num1 + $num2 ))
 
 echo "Sum is: $sum"
 
+sub=$(( $num1 - $num2 ))
+
+echo "sub : $sub"
 
