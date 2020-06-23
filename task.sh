@@ -2,13 +2,11 @@
 
 add ()
 {
-echo "enter value1"
-read x
-echo "entervalue2"
-read y
+read -p "Enter first number: " num1
+read -p "Enter second number: " num2
 
-z=$(($x + $y))
+sum=$(( $num1 + $num2 ))
 
-echo $z
+echo "Sum is: $sum"
 }
 
