@@ -15,3 +15,8 @@ echo "sub : $sub"
 multi=$(( $num1 * $num2 ))
 
 echo "multiple : $multi"
+
+div=$(( $num1 / $num2 ))
+
+echo "div : $div"
+
